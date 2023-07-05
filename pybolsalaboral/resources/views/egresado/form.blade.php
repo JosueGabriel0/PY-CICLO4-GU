@@ -41,7 +41,7 @@
 
             <div>
                 <label class="text-white dark:text-gray-200" for="eg_ruta_cv">Ruta del cv</label>
-                <input type="file" name="eg_ruta_cv"
+                <input type="text" name="eg_ruta_cv"
                     value="{{ isset($egresado->eg_ruta_cv) ? $egresado->eg_ruta_cv : old('eg_ruta_cv') }}" id="eg_ruta_cv"
                     class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
             </div>
